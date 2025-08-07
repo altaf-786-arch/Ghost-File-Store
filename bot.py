@@ -26,15 +26,15 @@ from Script import script
 from datetime import date, datetime 
 import pytz
 from aiohttp import web
-from TechVJ.server import web_server
+from Ghost.server import web_server
 
 #devloper:- @rajanxpapa
 import asyncio
 from pyrogram import idle
 from plugins.clone import restart_bots
-from TechVJ.bot import StreamBot
-from TechVJ.utils.keepalive import ping_server
-from TechVJ.bot.clients import initialize_clients
+from Ghost.bot import StreamBot
+from Ghost.utils.keepalive import ping_server
+from Ghost.bot.clients import initialize_clients
 
 #devloper:- @rajanxpapa
 
