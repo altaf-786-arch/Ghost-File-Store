@@ -46,7 +46,7 @@ def formate_file_name(file_name):
 # Don't Remove Credit Tg - @rajanxpapa
 
 
-@Client.on_message(filters.command("start") & filters.incoming)
+@Client.on_message(filters.command("start"))
 async def start(client, message):
     username = client.me.username
     if not await db.is_user_exist(message.from_user.id):
